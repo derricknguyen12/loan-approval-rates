@@ -19,7 +19,7 @@ Name: Loan Default Prediction Dataset
 Source: Kaggle Dataset
 Observations: 255,347
 Variables: 18
-Link: 
+Link: https://www.kaggle.com/datasets/nikhil1e9/loan-default
 
 Key variables analyzed include:
   - Age (proxy for life stage/income potential)
