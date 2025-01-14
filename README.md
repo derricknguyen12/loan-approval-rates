@@ -1,20 +1,65 @@
-This is your group repo for your final project for COGS108.
+# Loan Approval Analysis for Young and Mid-Career Adults
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+## Abstract
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
+This project investigates how employment length, income, loan amount, and education level affect loan approval rates for young adults (ages 18-28) compared to mid-career adults (ages 28-38). With a focus on education levels (high school diploma, bachelor’s degree, master’s/PhD), we aim to uncover trends that provide actionable insights for young borrowers and improve financial literacy. Using statistical tests and data visualizations, we explored the significance of various factors influencing loan approvals and repayment behavior.
 
-This repository will be frozen on the final project due date. No further changes can be made after that time.
+## Reasearch Question
 
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
+* How do employment length, income, and loan amount affect loan approval rates for young adults with varying educational levels?
+* How do these effects compare to mid-career adults with similar education?
 
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
+## Hypothesis
 
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
+Young adults with higher education levels (master’s/PhD) would have higher home mortgage approval rates. However, mid-career adults (28+) were predicted to have higher overall approval rates due to job stability and experience.
 
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
+## Dataset
 
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+Name: Loan Default Prediction Dataset
+Source: Kaggle Dataset
+Observations: 255,347
+Variables: 18
+Link: 
+
+Key variables analyzed include:
+  - Age (proxy for life stage/income potential)
+  - Income (financial stability)
+  - LoanAmount (affordability/risk)
+  - MonthsEmployed (job stability)
+  - Education (employability/earning potential)
+  - EmploymentType (income predictability)
+  - LoanPurpose (risk)
+  - Default (loan repayment binary)
+
+## Methodology
+
+### Data Cleaning
+- Removed unnecessary columns.
+- Identified and resolved outliers and missing values.
+- Standardized units and corrected typos in categorical variables.
+
+### Analysis Techniques:
+- Generated scatter plots for relationships (e.g., Age vs. Income, LoanAmount).
+- Conducted T-tests to determine statistical significance between groups.
+- Bar plots visualized loan purposes by age group.
+
+## Results
+
+- No significant differences in loan amounts based on education level.
+- Mid-career adults are more likely to repay loans than young adults, likely due to greater financial stability.
+- Income, months employed, and loan purpose were significant predictors of loan approval.
+
+## Conclusion
+
+This analysis highlights that while education level may not strongly influence loan amounts, factors like age, income, and job stability play significant roles in loan approvals. Our findings provide insights for young borrowers to better understand and improve their financial profiles.
+
+
+
+
+
+
+
+
+
+
+
