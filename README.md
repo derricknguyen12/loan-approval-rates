@@ -15,11 +15,11 @@ Young adults with higher education levels (master’s/PhD) would have higher hom
 
 ## Dataset
 
-Name: Loan Default Prediction Dataset
-Source: Kaggle Dataset
-Observations: 255,347
-Variables: 18
-Link: https://www.kaggle.com/datasets/nikhil1e9/loan-default
+- Name: Loan Default Prediction Dataset
+- Source: Kaggle Dataset
+- Observations: 255,347
+- Variables: 18
+- Link: https://www.kaggle.com/datasets/nikhil1e9/loan-default
 
 Key variables analyzed include:
   - Age (proxy for life stage/income potential)
